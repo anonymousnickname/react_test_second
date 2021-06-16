@@ -24,7 +24,10 @@
     outline: none;
     border: none;
     cursor: pointer;
-    background-color: rgb(106, 12, 254);
-    color: #fff;
-    font-size: 25px;
+    background: #5E19F5;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    font-family: Roboto-Regular;
+    font-size: 32px;
+    color: #FFFFFF;
 }

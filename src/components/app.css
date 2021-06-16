@@ -1,0 +1,30 @@
+.mainWrap {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.count {
+    font-size: 84px;
+    color: #37474f;
+    text-align: center;
+}
+
+.buttonsWrap {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.buttonPrimary {
+    padding: 10px 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(106, 12, 254);
+    color: #fff;
+    font-size: 25px;
+}

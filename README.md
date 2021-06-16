@@ -1,2 +1,11 @@
-# react_test_second
-Counter
+# react_exercise_second
+
+Counter app
+
+# Setup
+
+npm install
+
+## Run project
+
+npm run star

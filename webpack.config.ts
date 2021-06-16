@@ -28,6 +28,16 @@ const webpackConfig = (env): Configuration => ({
             {
                 test: /\.css$/i,
                 use: ["style-loader", "css-loader"]
+            },
+            {
+                test: /\.(jsx|js)$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader",
+                    options: {
+                        presets: ["@babel/preset-env", "@babel/preset-react"]
+                    }
+                }
             }
         ]
     },

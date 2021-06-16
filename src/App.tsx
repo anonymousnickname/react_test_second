@@ -4,7 +4,6 @@ import Counter from "./components/Counter";
 
 const App = () => {
     const initialCount = 5;
-    return <Counter initialCount={initialCount} />;
+    return <h1>123</h1>;
 };
-
 export default App;
